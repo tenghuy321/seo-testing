@@ -1,7 +1,7 @@
 // sitemap-generator.js
 import { writeFile } from "fs/promises";
 
-const domain = "https://seo-testing-theta.vercel.app/"; // Replace with your real domain
+const domain = "https://seo-testing-theta.vercel.app"; // Replace with your real domain
 const routes = ["/", "/about", "/contact"]; // Add more routes as needed
 
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
